@@ -1,0 +1,17 @@
+/**
+ * template.css
+ *
+ * Central file for style changes.
+ * Feel free to use LESS instead of flat CSS.
+ */
+
+// Import stylesheets from leaflet
+@import "~leaflet/dist/leaflet.css";
+
+// Override some leaflet styles ...
+.leaflet-touch {
+    .leaflet-control-layers,
+    .leaflet-bar {
+        background-color: blue;
+    }
+}
